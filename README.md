@@ -1,4 +1,4 @@
-# SDEV 1001 - Section A02 - Fall 2025
+# SDEV 1001 - Winter 2026
 
 This contains all:
 - Examples done in class
