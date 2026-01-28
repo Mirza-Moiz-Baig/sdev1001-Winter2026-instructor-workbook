@@ -22,7 +22,7 @@ $ python heads_or_tails.py
 Guess the coin flip! Enter heads or tails (h/t): t
 The coin flip was: tails
 you guessed correct!
-```
+```-
 1. (optional) test your project by running the following command `python test_do_not_touch/test_heads_or_tails.py`
 
 
