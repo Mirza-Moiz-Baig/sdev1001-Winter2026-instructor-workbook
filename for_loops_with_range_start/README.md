@@ -39,11 +39,7 @@ iteration: 4
 ### 3. Let's calculate the squares on each iteration.
 
 - Let's change the code so that it calculates the square of each number in the range.
-```python
-print("Calculating squares for the following range")
-
-for number in range(5):
-    print(f"iteration: {number} has a square of {number ** 2}")
+``
 ```
 
 - so you can see here that you can use the `**` operator to calculate the square of a number.
