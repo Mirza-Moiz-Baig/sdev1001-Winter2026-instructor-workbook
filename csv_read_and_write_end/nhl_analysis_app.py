@@ -1,7 +1,5 @@
 import csv
 from pprint import pprint
-
-
 def read_nhl_teams(file_path):
     """Read the NHL teams data from a CSV file."""
     all_teams = []
@@ -33,7 +31,7 @@ def sort_teams_by_stat(teams, column, reverse=True, top_n=10):
             'Team': team['team'],
             column: team[column],
         })
-
+    pprint(sorted_teams)
     return sorted_teams[:top_n]
 
 
@@ -56,5 +54,6 @@ def main():
     for index, team in enumerate(top_teams):
         rank = index + 1
         print(f"{rank}. {team['team']} - {team[COLUMN]}")
+    
 if __name__ == "__main__":
     main()
